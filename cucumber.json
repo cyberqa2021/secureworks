@@ -1,0 +1,450 @@
+[
+  {
+    "description": "  In order display largest and transposed word from a file\n  As a User\n  I want to make sure all types of test scenario is covered",
+    "keyword": "Feature",
+    "name": "Read word from file",
+    "line": 2,
+    "id": "read-word-from-file",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "src/features/word.feature",
+    "elements": [
+      {
+        "id": "read-word-from-file;largest-and-transposed-word---file-with-\"alphabetic\"-word",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Largest and transposed word - file with \"Alphabetic\" word",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User has a file stored in TestData folder",
+            "match": {
+              "location": "src/steps/word-steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User reads the file with \"Alphabetic\" chararcter only",
+            "match": {
+              "location": "src/steps/word-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User is displayed largest and corresponding transposed word for file with \"Alphabetic\" character",
+            "match": {
+              "location": "src/steps/word-steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "read-word-from-file;largest-and-transposed-word---file-with-\"numeric\"-word",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Largest and transposed word - file with \"Numeric\" word",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User has a file stored in TestData folder",
+            "match": {
+              "location": "src/steps/word-steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User reads the file with \"Numeric\" chararcter only",
+            "match": {
+              "location": "src/steps/word-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User is displayed largest and corresponding transposed word for file with \"Numeric\" character",
+            "match": {
+              "location": "src/steps/word-steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "read-word-from-file;largest-and-transposed-word---file-with-\"aplphanumeric\"-word",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Largest and transposed word - file with \"AplphaNumeric\" word",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User has a file stored in TestData folder",
+            "match": {
+              "location": "src/steps/word-steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User reads the file with \"AplphaNumeric\" chararcter only",
+            "match": {
+              "location": "src/steps/word-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User is displayed largest and corresponding transposed word for file with \"AplphaNumeric\" character",
+            "match": {
+              "location": "src/steps/word-steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "read-word-from-file;largest-and-transposed-word---file-with-\"special\"-word",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Largest and transposed word - file with \"Special\" word",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User has a file stored in TestData folder",
+            "match": {
+              "location": "src/steps/word-steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User reads the file with \"Special\" chararcter only",
+            "match": {
+              "location": "src/steps/word-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User is displayed largest and corresponding transposed word for file with \"Special\" character",
+            "match": {
+              "location": "src/steps/word-steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "read-word-from-file;largest-and-transposed-word---file-with-\"aplhanumericspecial\"-word",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Largest and transposed word - file with \"AplhaNumericSpecial\" word",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User has a file stored in TestData folder",
+            "match": {
+              "location": "src/steps/word-steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User reads the file with \"AplhaNumericSpecial\" chararcter only",
+            "match": {
+              "location": "src/steps/word-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User is displayed largest and corresponding transposed word for file with \"AplhaNumericSpecial\" character",
+            "match": {
+              "location": "src/steps/word-steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "read-word-from-file;negative-scenario---\"empty\"",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Negative scenario - \"Empty\"",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User has a file stored in TestData folder",
+            "match": {
+              "location": "src/steps/word-steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User is provided \"Empty\"",
+            "match": {
+              "location": "src/steps/word-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User is displayed \"Empty\" message",
+            "match": {
+              "location": "src/steps/word-steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "read-word-from-file;negative-scenario---\"file-type-not-supported\"",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Negative scenario - \"File type not supported\"",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User has a file stored in TestData folder",
+            "match": {
+              "location": "src/steps/word-steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User is provided \"File type not supported\"",
+            "match": {
+              "location": "src/steps/word-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User is displayed \"File type not supported\" message",
+            "match": {
+              "location": "src/steps/word-steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "read-word-from-file;negative-scenario---\"file-not-found\"",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Negative scenario - \"File not found\"",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User has a file stored in TestData folder",
+            "match": {
+              "location": "src/steps/word-steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User is provided \"File not found\"",
+            "match": {
+              "location": "src/steps/word-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User is displayed \"File not found\" message",
+            "match": {
+              "location": "src/steps/word-steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
